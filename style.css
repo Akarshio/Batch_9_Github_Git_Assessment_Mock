@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -30,5 +31,28 @@
 }
 
 h3{
-    margin-left: 9%;
+    margin-left: 9%
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 64, 64);
+    border-radius: 15px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(65, 65, 173);
+    border-radius: 50%;
+    right: -20px;
+    top: -20px;
 }
